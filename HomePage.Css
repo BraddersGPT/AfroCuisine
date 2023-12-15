@@ -1,0 +1,123 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+nav {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.intro h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.intro p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+.dish {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.dish-item {
+    width: calc(33.33% - 20px);
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease-in-out;
+}
+
+.dish-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.dish-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.dish-item p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.logo img {
+    width: 150px; /* Adjust width as needed */
+    height: auto;
+    /* Add other styling properties (e.g., padding, margins) as desired */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url(Screenshot\ 2023-11-28\ 003951.png); /* Replace with your background image path */
+    background-size: 800px 600px; /* Set the width and height of the background image in pixels */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* Other styles for the background like color, image, size, etc. */
+
+    /* Optional: Smoothing for image rendering */
+    image-rendering: -webkit-optimize-contrast; /* Webkit-based browsers */
+    image-rendering: crisp-edges; /* Other browsers */
+}
